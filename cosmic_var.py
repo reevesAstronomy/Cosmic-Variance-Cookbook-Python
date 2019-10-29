@@ -32,7 +32,6 @@ def calc_COSMOS_cosmic_variance(mean_z, delta_z, log_m_stellar, survey="COSMOS")
     elif survey=="EGS":
         sigma_a, sigma_b, beta = 0.128, 0.383, 0.673
     elif survey=="COSMOS":
-        print("COSMOS")
         sigma_a, sigma_b, beta = 0.069, 0.234, 0.834
     else:
         print("Survey field must be specified (to determine which row of table 3 to use)")
