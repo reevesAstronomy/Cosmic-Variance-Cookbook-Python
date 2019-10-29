@@ -6,7 +6,7 @@ The scripts here calculate the root galaxy cosmic variance for a given survey, b
 
 Should work with either Python 2 or 3. Also requires numpy to work.
 
-### Break down into end to end tests
+### Example usage
 
 Example usage calculating an array of root cosmic variances given an array of stellar of mass. The "survey" flag is for a given survey in table 3 in the Moster+2011 paper. Note: my code does not interpolate the stellar mass fits, so the code currently just rounds to the nearest log_m_stellar and uses its fit values.
 
